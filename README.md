@@ -2,8 +2,8 @@
 
 <a href="https://github.com/greencoffee1635/github-stats-react-theme">
 
-![](https://github.com/greencoffee1635/github-stats-react-theme/blob/master/generated/overview.svg)
-![](https://github.com/greencoffee1635/github-stats-react-theme/blob/master/generated/languages.svg)
+![](https://github.com/greencoffee1635/github-stats-react-theme/blob/main/generated/overview.svg)
+![](https://github.com/greencoffee1635/github-stats-react-theme/blob/main/generated/languages.svg)
 
 </a>
 
@@ -54,10 +54,10 @@
    lines of code into your markdown content. Change the `username` value to your GitHub 
    username.
    ```md
-   ![](https://github.com/username/github-stats-react-theme/blob/master/generated/overview.svg)
+   ![](https://github.com/username/github-stats-react-theme/blob/main/generated/overview.svg)
    ```
    ```md
-   ![](https://github.com/username/github-stats-react-theme/blob/master/generated/languages.svg)
+   ![](https://github.com/username/github-stats-react-theme/blob/main/generated/languages.svg)
    ```
 9. Link back to this repository so that others can generate their own
    statistics images.
