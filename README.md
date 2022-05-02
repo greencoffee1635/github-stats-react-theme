@@ -19,12 +19,8 @@
    Personal access token must have permissions: `read:user` and `repo`. Copy
    the access token when it is generated – if you lose it, you will have to
    regenerate the token.
-   - Some users are reporting that it can take a few minutes for the personal
-     access token to work. For more, see 
-     [#30](https://github.com/jstrieb/github-stats/issues/30).
-2. Click [here](https://github.com/jstrieb/github-stats/generate) to create a
-   copy of this repository. Note: this is not the same as forking a copy
-   because it copies everything fresh, without the huge commit history. 
+2. Click [here](https://github.com/greencoffee1635/github-stats-react-theme/fork) to create a
+   copy of this repository.
 3. If this is the README of your fork, click [this
    link](../../settings/secrets/actions) to go to the "Secrets" page.
    Otherwise, go to the "Settings" tab of the newly-created repository and go
@@ -33,7 +29,7 @@
    personal access token as the value.
 5. It is possible to change the type of statistics reported.
    - To ignore certain repos, add them (in owner/name format e.g.,
-     `jstrieb/github-stats`) separated by commas to a new secret—created as
+     `username/github-stats-react-theme`) separated by commas to a new secret—created as
      before—called `EXCLUDED`.
    - To ignore certain languages, add them (separated by commas) to a new
      secret called `EXCLUDED_LANGS`. For example, to exclude HTML and TeX you
@@ -41,7 +37,7 @@
    - To show statistics only for "owned" repositories and not forks with
      contributions, add an environment variable (under the `env` header in the
      [main
-     workflow](https://github.com/jstrieb/github-stats/blob/master/.github/workflows/main.yml))
+     workflow](https://github.com/greencoffee1635/github-stats-react-theme/blob/main/.github/workflows/main.yml))
      called `EXCLUDE_FORKED_REPOS` with a value of `true`.
 6. Go to the [Actions
    Page](../../actions?query=workflow%3A"Generate+Stats+Images") and press "Run
