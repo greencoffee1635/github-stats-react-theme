@@ -11,9 +11,9 @@ svg {
   height: calc(100% - 10px);
   fill: rgb(32, 35, 42);
   stroke: rgb(32, 35, 42);
-  stroke-width: 1px;
-  rx: 6px;
-  ry: 6px;
+  stroke-width: 5px;
+  rx: 3px;
+  ry: 3px;
 }
 
 foreignObject {
@@ -47,7 +47,7 @@ td {
 
 tr {
   transform: translateX(-200%);
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-name: slideIn;
   animation-function: ease-in-out;
   animation-fill-mode: forwards;
