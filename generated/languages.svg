@@ -12,8 +12,8 @@ svg {
   fill: rgb(32, 35, 42);
   stroke: rgb(32, 35, 42);
   stroke-width: 5px;
-  rx: 4px;
-  ry: 4px;
+  rx: 3px;
+  ry: 3px;
 }
 
 foreignObject {
